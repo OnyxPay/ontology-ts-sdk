@@ -32,7 +32,7 @@ export const OEP_HEADER = "0142";
 export const OEP_FLAG = "e0";
 
 // Ont://nativeMethod?param1=xxx&param2=yyy
-export const WEBVIEW_SCHEME = "Ont";
+export const WEBVIEW_SCHEME = "Onx";
 
 export const DEFAULT_ALGORITHM = {
   algorithm: "ECDSA",

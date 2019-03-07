@@ -109,7 +109,7 @@ export class Address {
      */
     static generateOntid(publicKey: PublicKey): string {
         const address = Address.fromPubKey(publicKey);
-        const ontid = 'did:ont:' + address.toBase58();
+        const ontid = 'did:onx:' + address.toBase58();
 
         return ontid;
     }
